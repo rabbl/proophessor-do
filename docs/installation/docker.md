@@ -76,8 +76,8 @@ return [
     //...
         'pdo_connection' => [
             'default' => [
-                'schema' => 'mysql', // <- Name of the mysql docker contaienr
-                'host' => 'mysql',
+                'schema' => 'mysql', 
+                'host' => 'mysql', // <- Name of the mysql docker container
                 'port' => '3306',
                 'user' => 'dev', // <- User configured in docker-compose.yml
                 'password' => 'dev', // <- Pwd configured in docker-compose.yml
